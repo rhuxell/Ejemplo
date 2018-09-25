@@ -1,3 +1,35 @@
+/* Aplica a todo */
+*{
+    margin: 0;
+}
+
+/* Aplica sólo a 'p' */
 p{
     font-size: 20px;
+}
+
+/* Aplica sólo a 'parrafo1' */
+p#parrafo1{
+    color: red;
+}
+
+
+/* Aplica sólo a 'parrafo2' */
+p#parrafo2{
+    color: blue;
+}
+
+/* Crea una clase que se llama parrafo3 */
+p.parrafo3{
+    color: orange;
+}
+
+/*
+
+La p adelante se puede poner o no, hace referencia a que aplica a todas las etiquetas o sólo a las p
+
+*/
+
+p[nane="parrafo4"]{
+    color: green;
 }
