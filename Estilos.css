@@ -30,6 +30,22 @@ La p adelante se puede poner o no, hace referencia a que aplica a todas las etiq
 
 */
 
-p[nane="parrafo4"]{
+/*Aplica a los que tienen name=parrafo4 */
+p[name="parrafo4"]{
     color: green;
+}
+
+/* Aplica a los p que son hijos en 3ra posición */
+p:nth-child(3){
+    background: #999999;
+}
+
+/* Aplica a los p que tienen posición impar */
+p:nth-child(odd){
+    font-weight: bold;
+}
+
+/* Aplica a los p que tienen posición par */
+p:nth-child(even){
+    font-style: italic;
 }
