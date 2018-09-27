@@ -28,7 +28,7 @@ body{
 }
 
 #cabecera{
-    background: #e09d64;
+    background: #73d36f;
     border: 2px solid #000000; /* solid es la línea continua, dash es línea punteada */
     padding: 20px;
     text-align: center;
@@ -44,4 +44,45 @@ body{
     list-style: none;
     padding: 5px;
     font: bold 14px verdana, sans-serif;
+}
+
+#seccion{
+    width: 70%;
+    margin: 20px;
+    float: left;
+}
+
+#columna{
+    width: 20%;
+    margin: 20px 0px;
+    float: left;
+    padding: 20px;
+    background: #73d36f;
+}
+
+#pie{
+    clear: both;
+    background: #73d36f;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
+
+article{
+    background: #beedbd;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer{
+    text-align: right;
+}
+
+time{
+    color: black;
+}
+
+figcaption{
+    font: italic 14px verdana, sans-serif;
 }
