@@ -1,3 +1,7 @@
+*{
+        font: bold 36px "rubikregular", verdana, sans-serif;
+}
+
 ody{
     text-align: center;
 }
@@ -18,10 +22,7 @@ ody{
 }
 
 #titulo{
-    font: bold 36px "rubikregular", verdana, sans-serif;
     text-shadow: rgba(0,0,150,.5) 3px 3px 5px;
-
-    box-shadow: rgb(150,150,150) 5px 5px 10px inside;
 }
 
 
@@ -33,3 +34,28 @@ ody{
     font-style: normal;
 
 }
+
+
+#menu{
+    padding: 5px 15px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    border: 5px solid #000000;
+    font: bold 20px "rubikregular", verdana, sans-serif;
+    text-shadow: rgba(0,0,150,.5) 3px 3px 5px;
+    -moz-transition: -moz-transform 1s easy-in-out 0.5s;
+    -webkit-transition: -moz-transform 1s easy-in-out 0.5s;
+}
+
+#menu li:hover{
+    background: #DDDDDD;
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
