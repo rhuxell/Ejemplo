@@ -1,0 +1,27 @@
+ody{
+    text-align: center;
+}
+
+#principal{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+#titulo{
+    font: bold 36px "rubikregular", verdana, sans-serif;
+}
+
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('font/rubik-regular-webfont.woff2') format('woff2'),
+         url('font/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

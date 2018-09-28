@@ -17,11 +17,17 @@ body{
     /* El webkit y el moz se ponen porque hay algunos navegadores que todavía no interpretan algunos parametros */
     background: -webkit-linear-gradient(top, #FFFFFF, #006699);
     background: -moz-linear-gradient(top, #FFFFFF, #006699);
+
+
+    outline: 2px dashed #000099;
+    outline-offset: 15px;
 }
 
 #titulo{
     font: bold 36px "rubikregular", verdana, sans-serif;
-    text-shadow: rgb(0,0,150) 3px 3px 5px;
+    text-shadow: rgba(0,0,150,.5) 3px 3px 5px;
+    color: hsla(220, 40%, 60%, 0.5);
+
 }
 
 
