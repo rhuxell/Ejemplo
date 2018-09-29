@@ -7,7 +7,6 @@ function mostraralerta2(){
 }
 
 function hacerclick(){
-    document.getElementById('input').onclick=mostraralerta;
     document.querySelector('#principal input:first-child').onclick=mostraralerta2;
 }
 
