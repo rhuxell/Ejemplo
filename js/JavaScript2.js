@@ -1,9 +1,14 @@
 function mostraralerta(){
-    alert('Hizo Click en el otro botón!');
+    alert('Buscó por id');
+}
+
+function mostraralerta2(){
+    alert('Buscó por first child');
 }
 
 function hacerclick(){
-    document.getElementsByTagName('input')[0].onclick=mostraralerta;
+    document.getElementById('input').onclick=mostraralerta;
+    document.querySelector('#principal input:first-child').onclick=mostraralerta2;
 }
 
 window.onload=hacerclick;
